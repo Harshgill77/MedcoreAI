@@ -1,0 +1,54 @@
+
+> medical@0.1.0 dev
+> next dev -H 0.0.0.0
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+- Environments: .env
+
+✓ Starting...
+✓ Ready in 910ms
+ GET /signup 200 in 1091ms (compile: 489ms, render: 602ms)
+ GET /login 200 in 1166ms (compile: 586ms, render: 580ms)
+ GET /signup 200 in 1097ms (compile: 470ms, render: 627ms)
+ GET / 200 in 1097ms (compile: 409ms, render: 688ms)
+ GET /login 200 in 241ms (compile: 10ms, render: 232ms)
+ GET /api/auth/session 200 in 1417ms (compile: 1397ms, render: 20ms)
+ GET /api/auth/session 200 in 518ms (compile: 497ms, render: 21ms)
+ GET /api/auth/session 200 in 28ms (compile: 16ms, render: 12ms)
+ GET /api/auth/session 200 in 13ms (compile: 6ms, render: 7ms)
+ GET /api/auth/session 200 in 23ms (compile: 3ms, render: 20ms)
+ GET /api/auth/session 200 in 9ms (compile: 3ms, render: 6ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 4ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 5ms)
+ POST /api/auth/register 409 in 3.5s (compile: 150ms, render: 3.4s)
+ POST /api/auth/register 409 in 3.7s (compile: 16ms, render: 3.7s)
+Email sent: 250 2.0.0 OK  1772386081 d2e1a72fcca58-8273a048615sm10598117b3a.52 - gsmtp
+ POST /api/auth/register 201 in 10.8s (compile: 12ms, render: 10.8s)
+ GET /verify?token=$2b$12$4ksDzOAxmInDWCZQe6pUQeIdA9x/87V5vIXI0lm1HaaRTMLI0rVZ6 200 in 1289ms (compile: 1207ms, render: 82ms)
+⚠ Cross origin request detected from 10.191.16.35 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /api/auth/session 200 in 14ms (compile: 7ms, render: 6ms)
+prisma:error No database host or connection string was set, and key parameters have default values (host: localhost, user: harsh, db: harsh, password: null). Is an environment variable missing? Alternatively, if you intended to connect with these parameters, please set the host to 'localhost' explicitly.
+Error: No database host or connection string was set, and key parameters have default values (host: localhost, user: harsh, db: harsh, password: null). Is an environment variable missing? Alternatively, if you intended to connect with these parameters, please set the host to 'localhost' explicitly.
+    at ignore-listed frames {
+  clientVersion: '6.19.2'
+}
+ POST /api/auth/verify/isValid 500 in 355ms (compile: 150ms, render: 205ms)
+ GET /login 200 in 65ms (compile: 9ms, render: 56ms)
+ GET /api/auth/session 200 in 53ms (compile: 30ms, render: 24ms)
+ GET /api/auth/providers 200 in 16ms (compile: 10ms, render: 7ms)
+ GET /api/auth/csrf 200 in 11ms (compile: 4ms, render: 7ms)
+ POST /api/auth/callback/credentials 401 in 3.7s (compile: 3ms, render: 3.7s)
+ GET /api/auth/providers 200 in 22ms (compile: 15ms, render: 8ms)
+ GET /api/auth/csrf 200 in 10ms (compile: 4ms, render: 6ms)
+ POST /api/auth/callback/credentials 401 in 3.7s (compile: 3ms, render: 3.7s)
+ GET /verify?token=$2b$12$4ksDzOAxmInDWCZQe6pUQeIdA9x/87V5vIXI0lm1HaaRTMLI0rVZ6 200 in 50ms (compile: 8ms, render: 42ms)
+prisma:error No database host or connection string was set, and key parameters have default values (host: localhost, user: harsh, db: harsh, password: null). Is an environment variable missing? Alternatively, if you intended to connect with these parameters, please set the host to 'localhost' explicitly.
+Error: No database host or connection string was set, and key parameters have default values (host: localhost, user: harsh, db: harsh, password: null). Is an environment variable missing? Alternatively, if you intended to connect with these parameters, please set the host to 'localhost' explicitly.
+    at ignore-listed frames {
+  clientVersion: '6.19.2'
+}
+ POST /api/auth/verify/isValid 500 in 165ms (compile: 11ms, render: 154ms)
+ GET /api/auth/session 200 in 158ms (compile: 11ms, render: 147ms)

@@ -1,0 +1,13 @@
+[
+{
+"role": "user",
+"content": "feeling chest pain from today morning",
+"ts": "2026-03-10T07:08:17.149136"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Chest Pain**\n\nInitial prediction: **Pneumonia** (20.1% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **chills**?",
+"ts": "2026-03-10T07:08:17.550286",
+"risk_level": "critical"
+}
+]

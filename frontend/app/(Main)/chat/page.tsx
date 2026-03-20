@@ -203,7 +203,8 @@ export default function ChatDashboard() {
                     setCurrentSessionId(activeSessionId);
                     setSessions(prev => [data.session, ...prev]);
                 } else {
-                    throw new Error("Failed to create session");
+                    const errorMsg = data.details || data.error || "Failed to create session";
+                    throw new Error("Session API Error: " + errorMsg);
                 }
             }
 
@@ -427,13 +428,15 @@ export default function ChatDashboard() {
                                                     i % 2 === 1 ? <strong key={i} className="font-semibold text-black">{text}</strong> : text
                                                 ))}
 
-                                                {/* Render Animated ML Progress Bars if payload exists */}
+                                                {/* Render Animated ML Progress Bars if payload exists and it's a final diagnosis */}
                                                 {msg.jsonPayload && (() => {
                                                     try {
                                                         const payload = JSON.parse(msg.jsonPayload);
                                                         const predictions: { disease: string, probability: number }[] = payload.top_predictions;
 
-                                                        if (Array.isArray(predictions) && predictions.length > 0) {
+                                                        // Only show the probabilities chart when a final diagnosis is reached. 
+                                                        // We can tell because the final payload includes the 'diagnosis' field.
+                                                        if (payload.diagnosis && Array.isArray(predictions) && predictions.length > 0) {
                                                             return (
                                                                 <div className="mt-5 p-4 rounded-xl border border-[#e5e5e5] bg-[#f9f9f9]">
                                                                     <div className="text-[12px] font-semibold text-[#8e8e8e] uppercase tracking-wider mb-4">Diagnosis Probabilities</div>

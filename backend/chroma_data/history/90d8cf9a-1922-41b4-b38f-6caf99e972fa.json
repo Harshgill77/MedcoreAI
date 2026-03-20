@@ -1,0 +1,13 @@
+[
+{
+"role": "user",
+"content": "I have a headache and fever",
+"ts": "2026-03-01T16:37:23.165779"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **High Fever, Headache**\n\nInitial prediction: **Typhoid** (33.1% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **toxic look (typhos)**?",
+"ts": "2026-03-01T16:37:26.872332",
+"risk_level": "high"
+}
+]

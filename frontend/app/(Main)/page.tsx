@@ -21,6 +21,7 @@ import { Process1 } from "@/components/process1";
 import { Separator } from "@/components/ui/separator";
 import { InView } from "@/components/ui/in-view";
 import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 
 const faqs = [
   {
@@ -115,6 +116,8 @@ const features = [
 
 export default function Page() {
   const router = useRouter();
+  const { data: session } = useSession();
+  const isLoggedIn = !!session?.user;
   return (
     <main>
       <section className="h-auto p-8 py-20 md:py-64 gap-8 border w-full flex justify-center items-center flex-col">
@@ -128,9 +131,9 @@ export default function Page() {
         </div>
         <Button
           className="w-fit mt-2 px-6"
-          onClick={() => router.push("/signup")}
+          onClick={() => router.push(isLoggedIn ? "/chat" : "/signup")}
         >
-          Get Started <ArrowRight />
+          {isLoggedIn ? "Go to Dashboard" : "Get Started"} <ArrowRight />
         </Button>
       </section>
 
@@ -209,9 +212,9 @@ export default function Page() {
         <Button
           className="w-fit mt-2 px-6"
           variant={"secondary"}
-          onClick={() => router.push("/signup")}
+          onClick={() => router.push(isLoggedIn ? "/chat" : "/signup")}
         >
-          Get Started <ArrowRight />
+          {isLoggedIn ? "Go to Dashboard" : "Get Started"} <ArrowRight />
         </Button>
       </section>
       <Separator className="w-[50vw]"></Separator>

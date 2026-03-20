@@ -21,6 +21,7 @@ Python FastAPI backend for the diagnosis flow: chat with history (ChromaDB), rep
    # source .venv/bin/activate  # macOS/Linux
    pip install -r requirements.txt
    ```
+   
 
 2. **Environment** – Copy `.env.example` to `.env` and set:
 

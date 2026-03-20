@@ -1,0 +1,45 @@
+[
+{
+"role": "user",
+"content": "I got my lower left leg pain",
+"ts": "2026-03-09T09:28:54.018663"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-09T09:28:54.019361"
+},
+{
+"role": "user",
+"content": "I have a headache and fever",
+"ts": "2026-03-09T09:29:27.943775"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **High Fever, Headache**\n\nInitial prediction: **Typhoid** (33.1% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **toxic look (typhos)**?",
+"ts": "2026-03-09T09:29:28.286010",
+"risk_level": "high"
+},
+{
+"role": "user",
+"content": "No",
+"ts": "2026-03-09T09:30:09.622678"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 2:** Are you experiencing **diarrhoea**?",
+"ts": "2026-03-09T09:30:09.930472",
+"risk_level": "high"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-09T09:30:16.425505"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Malaria**\nConfidence: 62.5%\n(Confirmed after 2 follow-up questions)\n\n**Symptoms identified (3):**\n• High Fever\n• Headache\n• Diarrhoea\n\n**About Malaria:**\nAn infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type.\n\n**Precautions:**\n1. Consult nearest hospital\n2. avoid oily food\n3. avoid non veg food\n4. keep mosquitos out\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-09T09:30:16.461657",
+"risk_level": "high"
+}
+]

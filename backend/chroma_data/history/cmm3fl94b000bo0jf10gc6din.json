@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "My head really hurts, it's a sharp pain.",
+"ts": "2026-02-26T12:32:25.904910"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Patches In Throat**\n\nInitial prediction: **AIDS** (50.8% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **muscle wasting**?",
+"ts": "2026-02-26T12:32:25.984282",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-02-26T12:33:35.851250"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: AIDS**\nConfidence: 84.8%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Patches In Throat\n• Muscle Wasting\n\n**About AIDS:**\nAcquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.\n\n**Precautions:**\n1. avoid open cuts\n2. wear ppe if possible\n3. consult doctor\n4. follow up\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-02-26T12:33:35.898159",
+"risk_level": "low"
+}
+]

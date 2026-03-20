@@ -1,0 +1,88 @@
+[
+{
+"role": "user",
+"content": "I have asthma",
+"ts": "2026-03-10T10:00:59.413067"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-10T10:00:59.414188"
+},
+{
+"role": "user",
+"content": "I have asthma",
+"ts": "2026-03-10T10:01:10.260361"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-10T10:01:10.260844"
+},
+{
+"role": "user",
+"content": "I have problem of cough and feeling respiratory problem",
+"ts": "2026-03-10T10:02:13.306339"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Patches In Throat, Cough**\n\nInitial prediction: **AIDS** (36.8% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **high fever**?",
+"ts": "2026-03-10T10:02:13.578046",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "No",
+"ts": "2026-03-10T10:02:33.832589"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 2:** Are you experiencing **muscle wasting**?",
+"ts": "2026-03-10T10:02:34.052004",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "No",
+"ts": "2026-03-10T10:02:39.722035"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 3:** Are you experiencing **extra marital contacts**?",
+"ts": "2026-03-10T10:02:39.948943",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "No",
+"ts": "2026-03-10T10:03:02.782877"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 4:** Are you experiencing **chest pain**?",
+"ts": "2026-03-10T10:03:02.981469",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-10T10:03:10.401599"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 5:** Are you experiencing **rusty sputum**?",
+"ts": "2026-03-10T10:03:10.768800",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-10T10:03:22.725579"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Pneumonia**\nConfidence: 73.8%\n(Confirmed after 5 follow-up questions)\n\n**Symptoms identified (4):**\n• Patches In Throat\n• Cough\n• Chest Pain\n• Rusty Sputum\n\n**About Pneumonia:**\nPneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe.\n\n**Precautions:**\n1. consult doctor\n2. medication\n3. rest\n4. follow up\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-10T10:03:22.756503",
+"risk_level": "low"
+}
+]

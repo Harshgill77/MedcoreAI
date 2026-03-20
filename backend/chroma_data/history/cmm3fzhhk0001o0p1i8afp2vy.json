@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "I have a headache",
+"ts": "2026-02-26T12:31:16.865626"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Headache**\n\nInitial prediction: **Typhoid** (15.4% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **high fever**?",
+"ts": "2026-02-26T12:31:17.362671",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-02-26T12:31:36.522040"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 2:** Are you experiencing **toxic look (typhos)**?",
+"ts": "2026-02-26T12:31:36.864409",
+"risk_level": "low"
+}
+]

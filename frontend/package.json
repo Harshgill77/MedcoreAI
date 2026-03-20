@@ -2,15 +2,15 @@
   "name": "medical",
   "version": "0.1.0",
   "private": true,
- "scripts": {
-  "dev": "next dev",
-  "build": "prisma generate && next build --webpack",
-  "postinstall": "prisma generate"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build --webpack",
+    "postinstall": "prisma generate"
+  },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",
     "@neondatabase/serverless": "^1.0.2",
-    "@prisma/adapter-neon": "^7.4.1",
+    "@prisma/adapter-neon": "^7.4.2",
     "@prisma/client": "6.19",
     "@types/axios": "^0.9.36",
     "@types/bcrypt": "^6.0.0",
@@ -37,6 +37,7 @@
     "@types/nodemailer": "^7.0.11",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/ws": "^8.18.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "prisma": "6.19",

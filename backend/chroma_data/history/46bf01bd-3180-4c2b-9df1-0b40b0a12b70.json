@@ -1,0 +1,22 @@
+[
+{
+"role": "user",
+"content": "hlo",
+"ts": "2026-03-10T09:36:48.356775"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-10T09:36:48.357637"
+},
+{
+"role": "user",
+"content": "my skin feely tight and oily",
+"ts": "2026-03-10T09:43:34.139390"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-10T09:43:34.140284"
+}
+]

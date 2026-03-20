@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "my skin feely oily and sticky and also had problem of blackheads",
+"ts": "2026-03-09T16:52:38.774512"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Blackheads**\n\nInitial prediction: **Acne** (47.9% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **pus filled pimples**?",
+"ts": "2026-03-09T16:52:38.910069",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-09T16:52:48.170979"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Acne**\nConfidence: 79.6%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Blackheads\n• Pus Filled Pimples\n\n**About Acne:**\nAcne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents.\n\n**Precautions:**\n1. bath twice\n2. avoid fatty spicy food\n3. drink plenty of water\n4. avoid too many products\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-09T16:52:48.202681",
+"risk_level": "low"
+}
+]

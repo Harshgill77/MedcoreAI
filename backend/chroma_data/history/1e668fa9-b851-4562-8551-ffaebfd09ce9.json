@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "feeling cold and flu",
+"ts": "2026-03-01T17:14:59.484913"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Chills**\n\nInitial prediction: **Pneumonia** (17.4% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **chest pain**?",
+"ts": "2026-03-01T17:14:59.986685",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-01T17:15:11.509115"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Pneumonia**\nConfidence: 60.5%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Chills\n• Chest Pain\n\n**About Pneumonia:**\nPneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe.\n\n**Precautions:**\n1. consult doctor\n2. medication\n3. rest\n4. follow up\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-01T17:15:11.538996",
+"risk_level": "low"
+}
+]

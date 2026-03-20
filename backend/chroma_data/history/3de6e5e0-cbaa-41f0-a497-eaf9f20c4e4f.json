@@ -1,0 +1,12 @@
+[
+{
+"role": "user",
+"content": "feeling pain near my heart which start 2 hours ago",
+"ts": "2026-03-01T17:14:24.001667"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-01T17:14:24.003102"
+}
+]

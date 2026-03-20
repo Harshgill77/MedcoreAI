@@ -260,6 +260,12 @@ def _start_new_diagnosis(
         "suggested_action": risk_result["suggested_action"],
         "follow_up_suggested": True,
         "follow_up_question": _engine.display_symptom(best_symptom),
+        "ml_diagnosis": {
+            "top_predictions": [
+                {"disease": d, "probability": round(p * 100, 1)}
+                for d, p in predictions[:5]
+            ]
+        },
     }
 
 
@@ -396,4 +402,10 @@ def _continue_followup(
         "suggested_action": risk_result["suggested_action"],
         "follow_up_suggested": True,
         "follow_up_question": _engine.display_symptom(best_symptom),
+        "ml_diagnosis": {
+            "top_predictions": [
+                {"disease": d, "probability": round(p * 100, 1)}
+                for d, p in predictions[:5]
+            ]
+        },
     }

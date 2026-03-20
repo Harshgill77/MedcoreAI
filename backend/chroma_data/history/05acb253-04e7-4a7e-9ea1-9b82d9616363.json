@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "I have skin problem",
+"ts": "2026-03-10T03:39:03.310648"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Skin Rash**\n\nInitial prediction: **Acne** (27.6% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **blackheads**?",
+"ts": "2026-03-10T03:39:03.558073",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-10T03:39:32.776832"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Acne**\nConfidence: 77.1%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Skin Rash\n• Blackheads\n\n**About Acne:**\nAcne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents.\n\n**Precautions:**\n1. bath twice\n2. avoid fatty spicy food\n3. drink plenty of water\n4. avoid too many products\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-10T03:39:32.794996",
+"risk_level": "low"
+}
+]

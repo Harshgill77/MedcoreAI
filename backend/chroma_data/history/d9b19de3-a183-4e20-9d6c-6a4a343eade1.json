@@ -1,0 +1,12 @@
+[
+{
+"role": "user",
+"content": "Give me a healthy list of dietary habits.",
+"ts": "2026-03-01T16:44:27.850124"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-01T16:44:27.851905"
+}
+]

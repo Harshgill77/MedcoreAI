@@ -1,0 +1,45 @@
+[
+{
+"role": "user",
+"content": "when ever I eat sugar blood pressure increases",
+"ts": "2026-03-20T16:34:33.268016"
+},
+{
+"role": "assistant",
+"content": "I couldn't identify specific symptoms from your description. Could you try describing what you're feeling more specifically?\n\n**Examples:**\n• \"I have a headache and fever\"\n• \"My skin is itchy and I feel tired\"\n• \"I have stomach pain and nausea\"",
+"ts": "2026-03-20T16:34:33.269492"
+},
+{
+"role": "user",
+"content": "My skin is itchy and I feel tired",
+"ts": "2026-03-20T16:34:49.164481"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Fatigue, Itching**\n\nInitial prediction: **Jaundice** (19.3% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **abdominal pain**?",
+"ts": "2026-03-20T16:34:49.468209",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-20T16:34:59.899655"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 2:** Are you experiencing **high fever**?",
+"ts": "2026-03-20T16:35:00.104546",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-20T16:35:05.925591"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Jaundice**\nConfidence: 88.4%\n(Confirmed after 2 follow-up questions)\n\n**Symptoms identified (4):**\n• Fatigue\n• Itching\n• Abdominal Pain\n• High Fever\n\n**About Jaundice:**\nYellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the \"morbus regius\" (the regal disease) in the belief that only the touch of a king could cure it\n\n**Precautions:**\n1. drink plenty of water\n2. consume milk thistle\n3. eat fruits and high fiberous food\n4. medication\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-20T16:35:05.957477",
+"risk_level": "low"
+}
+]

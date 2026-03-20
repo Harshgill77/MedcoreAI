@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "my skin feels very oily and and there are several pimples on it",
+"ts": "2026-02-26T13:09:20.830812"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Pus Filled Pimples**\n\nInitial prediction: **Acne** (32.4% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **blackheads**?",
+"ts": "2026-02-26T13:09:20.929139",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-02-26T13:09:45.691725"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Acne**\nConfidence: 79.6%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Pus Filled Pimples\n• Blackheads\n\n**About Acne:**\nAcne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents.\n\n**Precautions:**\n1. bath twice\n2. avoid fatty spicy food\n3. drink plenty of water\n4. avoid too many products\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-02-26T13:09:45.730939",
+"risk_level": "low"
+}
+]

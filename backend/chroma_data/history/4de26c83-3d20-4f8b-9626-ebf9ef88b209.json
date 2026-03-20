@@ -1,0 +1,35 @@
+[
+{
+"role": "user",
+"content": "headache",
+"ts": "2026-03-01T16:39:13.395546"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Headache**\n\nInitial prediction: **Typhoid** (15.4% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **high fever**?",
+"ts": "2026-03-01T16:39:14.564325",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-01T16:39:30.872985"
+},
+{
+"role": "assistant",
+"content": "To narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 2:** Are you experiencing **toxic look (typhos)**?",
+"ts": "2026-03-01T16:39:31.406121",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-01T16:39:45.133989"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Typhoid**\nConfidence: 71.1%\n(Confirmed after 2 follow-up questions)\n\n**Symptoms identified (3):**\n• Headache\n• High Fever\n• Toxic Look (Typhos)\n\n**About Typhoid:**\nAn acute illness characterized by fever caused by infection with the bacterium Salmonella typhi. Typhoid fever has an insidious onset, with fever, headache, constipation, malaise, chills, and muscle pain. Diarrhea is uncommon, and vomiting is not usually severe.\n\n**Precautions:**\n1. eat high calorie vegitables\n2. antiboitic therapy\n3. consult doctor\n4. medication\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-01T16:39:45.173529",
+"risk_level": "low"
+}
+]

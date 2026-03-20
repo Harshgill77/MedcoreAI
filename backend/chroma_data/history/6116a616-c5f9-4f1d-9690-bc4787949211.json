@@ -1,0 +1,24 @@
+[
+{
+"role": "user",
+"content": "my leg is paining its right lower leg",
+"ts": "2026-03-10T09:43:55.697326"
+},
+{
+"role": "assistant",
+"content": "I identified the following symptoms: **Swollen Extremeties**\n\nInitial prediction: **Hypothyroidism** (16.0% confidence)\n\nThe confidence is not high enough for a definitive diagnosis. Let me ask a few follow-up questions to narrow it down.\n\nTo narrow down the diagnosis, I need to ask you a few questions.\n\n**Question 1:** Are you experiencing **brittle nails**?",
+"ts": "2026-03-10T09:43:56.169635",
+"risk_level": "low"
+},
+{
+"role": "user",
+"content": "Yes",
+"ts": "2026-03-10T09:44:02.012344"
+},
+{
+"role": "assistant",
+"content": "**Diagnosis: Hypothyroidism**\nConfidence: 75.7%\n(Confirmed after 1 follow-up questions)\n\n**Symptoms identified (2):**\n• Swollen Extremeties\n• Brittle Nails\n\n**About Hypothyroidism:**\nHypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone.\n\n**Precautions:**\n1. reduce stress\n2. exercise\n3. eat healthy\n4. get proper sleep\n\n⚕️ This is for informational purposes only. Always consult a qualified healthcare professional.",
+"ts": "2026-03-10T09:44:02.041608",
+"risk_level": "low"
+}
+]
