@@ -20,8 +20,8 @@ function getPrismaClient(): PrismaClient {
   }
 
   // PrismaNeon uses WebSocket to connect — bypasses TCP port 5432 block
-  const pool = new Pool({ connectionString: url });
-  const adapter = new PrismaNeon(pool) as any;
+  const pool = new Pool({ connectionString: url } as any);
+  const adapter = new PrismaNeon(pool as any);
 
   const client = new PrismaClient({
     adapter,
